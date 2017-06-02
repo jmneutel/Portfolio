@@ -1,0 +1,580 @@
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+
+    background-color: #0275d8;
+}
+
+.btn {
+    
+    float: right;
+    position: absolute;
+    z-index: 2;
+
+}
+
+.navchanges{
+
+    margin-left: 50px;
+
+
+}
+
+.button-scroll {
+    position: absolute;
+    z-index: 11;
+    top: 550px;
+    left: 685px;
+    background-color: white;
+}
+
+.topnav {
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    float: right;
+    padding-right: 20px;
+    position: absolute;
+    right: 200px;
+    z-index: 2;
+}
+
+.btn-warning {
+
+    background-color: #0275d8;
+    border-color: #0275d8;
+}
+
+.btn-warning:hover {
+
+    background-color: #E7182E;
+    border-color: #E7182E;
+
+}
+
+#success_message{ display: none;}
+
+fieldset {
+
+    margin-bottom: 50px;
+}
+
+.contactTitle {
+    
+    margin-bottom: 50px;
+
+}
+
+.portTitle {
+    
+    margin-bottom: 50px;
+
+}
+
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul.img-list li {
+  display: inline-block;
+  height: 250px;
+  margin: 0 2em 2em 0;
+  position: relative;
+  width: 250px;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  font-size: 15pt;
+  cursor: pointer;
+  display: table;
+  height: 250px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 250px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+/*======================================*/
+
+
+.nav>li>a:focus {
+
+    background-color: #597988;
+    color: white;
+}
+
+.nav>li>a:hover {
+
+    background-color: white;
+    color: #597988;
+}
+
+.picBackground {
+
+    background: url(../images/laptop-background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.otherTitles {
+
+    background-color: #0275d8;
+    padding: 10px;
+    color: white;
+    margin-left: 42%;
+    margin-right: 42%;
+    border-radius: 25px;
+    margin-top: 50px;
+}
+
+.bio {
+    margin-top: 50px;
+    color: #444;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: left;
+}
+
+.floating {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    float: right;
+    margin-left: 50px;
+    width: 50%;
+    height: auto;
+}
+
+.nav-bar {
+    color: white;
+    background-color: #597988;
+}
+
+
+.para {
+
+    font-size: 70px;
+    color: #0275d8;
+}
+
+.typed-cursor{
+    display: inline-block;
+    font-size: 70px;
+    color: #0275d8;
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.btn {
+    
+    float: right;
+    position: absolute;
+    z-index: 2;
+
+}
+
+.nav>li>a {
+
+    margin-left: 50px;
+
+
+}
+
+.nav {
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    float: right;
+    padding-right: 20px;
+    position: absolute;
+    right: 200px;
+    z-index: 2;
+}
+
+
+.copyright {
+    background-color: black;
+    color: lightgrey;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+}
+
+.copyrightFoot {
+
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.second {
+    text-align: center;
+    background-color: black;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.third {
+    text-align: center;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.forth {
+    text-align: center;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+#open {
+    opacity: 0.8;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.btn-group-lg>.btn,
+.btn-lg {
+    border-color: grey;
+    border-width: 2px;
+}
+
+.btn-group-lg>.btn,
+.btn-lg:hover {
+    background-color: lightgrey;
+    border-color: grey;
+}
+
+.btn-group-lg>.btn,
+.btn-lg:active {
+    outline: none;
+    background-color: lightgrey;
+    border-color: grey;
+}
+
+.btn-group-lg>.btn,
+.btn-lg:visited {
+    outline: none;
+    background-color: lightgrey;
+    border-color: grey;
+}
+
+.btn-group-lg>.btn,
+.btn-lg:focus {
+    outline: none;
+    background-color: lightgrey;
+    border-color: grey;
+}
+
+.button-scroll {
+    position: absolute;
+    z-index: 11;
+    top: 550px;
+    left: 685px;
+    background-color: white;
+}
+
+.glyphicon-menu-down:before {
+    color: grey;
+    width: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.spacer {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 80pt;
+    color: white;
+    z-index: 10;
+    position: absolute;
+    top: 140px;
+    margin-left: 100px;
+    /*padding: 20px;*/
+    border-radius: 25px;
+    /*background-color: black;*/
+    /*border-color: black;
+    border-style: solid;
+    border-width: 2px;*/
+}
+
+.changingText {
+    font-weight: bold;
+    font-size: 50pt;
+    color: white;
+    z-index: 10;
+    position: absolute;
+    top: 330px;
+    margin-left: 100px;
+    padding: 20px;
+    margin-top: 20px;
+    /*background-color: black;*/
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 25px;
+}
+
+
+@media handheld,
+screen and (max-width: 640px) {
+    h1 {
+        font-size: 20pt;
+        top: 10px;
+        margin-left: 20px;
+        right: auto;
+        left: auto;
+        padding: 15px;
+    }
+    .button-scroll {
+        display: none;
+        left: 685px;
+    }
+    .changingText {
+        font-weight: bold;
+        font-size: 12pt;
+        z-index: 10;
+        position: absolute;
+        top: 70px;
+        margin-left: 25px;
+        right: auto;
+        left: auto;
+        padding: 10px;
+    }
+
+    .typed-cursor {
+        
+        font-size: 10pt;
+
+    }
+    .para {
+        
+        font-size: 10pt;
+        
+    }
+    .spacer {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .otherTitles {
+
+    background-color: #0275d8;
+    padding: 8px;
+    color: white;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 25px;
+    margin-top: 50px;
+    }
+    
+}
+
+
+/* Tablet Screen Size Begin */
+
+@media only screen and (min-width: 640px) and (max-width: 768px) {
+    h1 {
+        font-size: 32pt;
+        top: 50px;
+        margin-left: 30px;
+        right: auto;
+        left: auto;
+    }
+    .button-scroll {
+        display: none;
+    }
+    .changingText {
+        font-weight: bold;
+        font-size: 12pt;
+        z-index: 10;
+        position: absolute;
+        top: 150px;
+        margin-left: 30px;
+        right: auto;
+        left: auto;
+    }
+
+    .typed-cursor {
+        
+        font-size: 12pt;
+
+    }
+    .para {
+        
+        font-size: 12pt;
+        
+    }
+
+    .otherTitles {
+
+    background-color: #0275d8;
+    padding: 8px;
+    color: white;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 25px;
+    margin-top: 50px;
+    }
+}
+
+
+/* Tablet Screen Size End */
+
+
+/* Desktop Screen Size Begin */
+
+@media screen and (min-width: 768px) and (max-width: 980px) {
+    h1 {
+        font-size: 40pt;
+        top: 70px;
+        margin-left: 30px;
+        right: auto;
+        left: auto;
+    }
+    .changingText {
+        font-weight: bold;
+        font-size: 12pt;
+        z-index: 10;
+        position: absolute;
+        top: 190px;
+        margin-left: 30px;
+        right: auto;
+        left: auto;
+    }
+    .button-scroll {
+        position: absolute;
+        z-index: 11;
+        top: 385px;
+        left: 350px;
+        background-color: white;
+    }
+
+    .typed-cursor {
+        
+        font-size: 12pt;
+
+    }
+    .para {
+        
+        font-size: 12pt;
+        
+    }
+}
+
+@media handheld,
+screen and (min-width: 980px) and (max-width: 1280px) {
+    h1 {
+        font-size: 50pt;
+        top: 80px;
+        margin-left: 50px;
+        right: auto;
+        left: auto;
+    }
+    .button-scroll {
+        position: absolute;
+        z-index: 11;
+        top: 450px;
+        left: 545px;
+        background-color: white;
+    }
+    .changingText {
+        font-weight: bold;
+        font-size: 18pt;
+        z-index: 10;
+        position: absolute;
+        top: 210px;
+        margin-left: 50px;
+        right: auto;
+        left: auto;
+    }
+
+    .typed-cursor {
+        
+        font-size: 18pt;
+
+    }
+    .para {
+        
+        font-size: 18pt;
+        
+    }
+}
+
+@media handheld,
+screen and (min-width: 1280px) and (max-width: 1375px) {
+    h1 {
+        font-size: 75pt;
+        top: 70px;
+        margin-left: 50px;
+        right: auto;
+        left: auto;
+    }
+    .button-scroll {
+        position: absolute;
+        z-index: 11;
+        top: 550px;
+        left: 615px;
+        background-color: white;
+    }
+    .changingText {
+        font-weight: bold;
+        font-size: 40pt;
+        z-index: 10;
+        position: absolute;
+        top: 260px;
+        margin-left: 50px;
+        right: auto;
+        left: auto;
+    }
+    
+    .typed-cursor {
+        
+        font-size: 40pt;
+
+    }
+    .para {
+        
+        font-size: 40pt;
+        
+    }
+}
